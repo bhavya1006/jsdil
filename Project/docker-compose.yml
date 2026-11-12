@@ -1,0 +1,55 @@
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: permitwise-api
+
+    command:
+      - python3
+      - run_api_service.py
+
+    env_file:
+      - .env
+
+    environment:
+      API_PORT: "8081"
+
+    ports:
+      - "8081:8081"
+
+    restart: unless-stopped
+
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: permitwise-dashboard
+
+    command:
+      - python3
+      - -m
+      - streamlit
+      - run
+      - run_dashboard.py
+      - --server.address=0.0.0.0
+      - --server.port=8501
+      - --server.headless=true
+
+    env_file:
+      - .env
+
+    environment:
+      API_BASE_URL: "http://api:8081"
+
+    ports:
+      - "8501:8501"
+
+    depends_on:
+      - api
+
+    restart: unless-stopped

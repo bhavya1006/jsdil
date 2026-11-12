@@ -1,0 +1,547 @@
+{
+  "job_logs_eval": {
+    "category_values_not_written_canonically": {
+      "access_method": 580,
+      "area_classification": 3671,
+      "completion_code": 3711,
+      "linked_permit_type": 3710,
+      "permit_suspended": 3741,
+      "permit_type": 3717,
+      "plant_area": 186,
+      "process_unit_status": 3706,
+      "request_channel": 0,
+      "trench_support_fitted": 307,
+      "work_activity": 200,
+      "work_location": 3693
+    },
+    "columns": 24,
+    "duplicate_rows": 78,
+    "median_actual_work_hours": 11.1,
+    "missing_cells_after_cleaning": {
+      "access_method": 4881,
+      "area_classification": 76,
+      "excavation_depth_m": 5862,
+      "fire_watch_minutes": 5057,
+      "planned_work_hours": 125,
+      "process_unit_status": 48,
+      "system_voltage_volts": 4866,
+      "trench_support_fitted": 6489,
+      "wind_speed_mps": 5678,
+      "work_location": 65,
+      "work_party_size": 132,
+      "working_height_m": 4880
+    },
+    "missing_cells_as_received": {
+      "access_method": 4931,
+      "actual_work_hours": 52,
+      "area_classification": 77,
+      "excavation_depth_m": 5923,
+      "fire_watch_minutes": 5108,
+      "planned_work_hours": 125,
+      "process_unit_status": 48,
+      "system_voltage_volts": 4906,
+      "trench_support_fitted": 6557,
+      "wind_speed_mps": 5738,
+      "work_location": 66,
+      "work_party_size": 118,
+      "working_height_m": 4930
+    },
+    "permit_references_not_written_canonically": 3618,
+    "readings_by_unit_as_written": {
+      "actual_work_hours": {
+        "hours": 4563,
+        "minutes": 2385
+      },
+      "excavation_depth_m": {
+        "feet": 495,
+        "metres": 582
+      },
+      "fire_watch_minutes": {
+        "hours": 281,
+        "minutes": 1611
+      },
+      "planned_work_hours": {
+        "hours": 4519,
+        "minutes": 2356
+      },
+      "system_voltage_volts": {
+        "kilovolts": 394,
+        "volts": 1700
+      },
+      "wind_speed_mps": {
+        "metres_per_second": 1083,
+        "miles_per_hour": 179
+      },
+      "working_height_m": {
+        "feet": 272,
+        "metres": 1798
+      }
+    },
+    "rows_kept": 6930,
+    "rows_missing_target": 52,
+    "rows_received": 7078,
+    "rows_removed": 148,
+    "rows_with_impossible_target": 18,
+    "values_below_minimum_as_received": {
+      "actual_work_hours": 18,
+      "excavation_depth_m": 0,
+      "fire_watch_minutes": 0,
+      "planned_work_hours": 0,
+      "system_voltage_volts": 3,
+      "wind_speed_mps": 0,
+      "work_party_size": 14,
+      "working_height_m": 0
+    }
+  },
+  "job_logs_train": {
+    "category_values_not_written_canonically": {
+      "access_method": 2418,
+      "area_classification": 14786,
+      "completion_code": 14984,
+      "linked_permit_type": 15004,
+      "permit_suspended": 15125,
+      "permit_type": 15000,
+      "plant_area": 844,
+      "process_unit_status": 14891,
+      "request_channel": 0,
+      "trench_support_fitted": 1262,
+      "work_activity": 814,
+      "work_location": 14875
+    },
+    "columns": 24,
+    "duplicate_rows": 339,
+    "median_actual_work_hours": 11.4,
+    "missing_cells_after_cleaning": {
+      "access_method": 19468,
+      "area_classification": 347,
+      "excavation_depth_m": 23401,
+      "fire_watch_minutes": 20103,
+      "planned_work_hours": 463,
+      "process_unit_status": 200,
+      "system_voltage_volts": 19639,
+      "trench_support_fitted": 25835,
+      "wind_speed_mps": 22591,
+      "work_location": 226,
+      "work_party_size": 476,
+      "working_height_m": 19454
+    },
+    "missing_cells_as_received": {
+      "access_method": 19673,
+      "actual_work_hours": 239,
+      "area_classification": 348,
+      "excavation_depth_m": 23664,
+      "fire_watch_minutes": 20314,
+      "planned_work_hours": 466,
+      "process_unit_status": 200,
+      "system_voltage_volts": 19828,
+      "trench_support_fitted": 26118,
+      "wind_speed_mps": 22824,
+      "work_location": 229,
+      "work_party_size": 434,
+      "working_height_m": 19656
+    },
+    "permit_references_not_written_canonically": 14584,
+    "readings_by_unit_as_written": {
+      "actual_work_hours": {
+        "hours": 18312,
+        "minutes": 9449
+      },
+      "excavation_depth_m": {
+        "feet": 2013,
+        "metres": 2323
+      },
+      "fire_watch_minutes": {
+        "hours": 1051,
+        "minutes": 6635
+      },
+      "planned_work_hours": {
+        "hours": 18168,
+        "minutes": 9366
+      },
+      "system_voltage_volts": {
+        "kilovolts": 1664,
+        "volts": 6508
+      },
+      "wind_speed_mps": {
+        "metres_per_second": 4393,
+        "miles_per_hour": 783
+      },
+      "working_height_m": {
+        "feet": 1239,
+        "metres": 7105
+      }
+    },
+    "rows_kept": 27705,
+    "rows_missing_target": 239,
+    "rows_received": 28339,
+    "rows_removed": 634,
+    "rows_with_impossible_target": 56,
+    "values_below_minimum_as_received": {
+      "actual_work_hours": 56,
+      "excavation_depth_m": 0,
+      "fire_watch_minutes": 0,
+      "planned_work_hours": 0,
+      "system_voltage_volts": 13,
+      "wind_speed_mps": 0,
+      "work_party_size": 44,
+      "working_height_m": 0
+    }
+  },
+  "permit_history_eval": {
+    "answered_earlier_revisions_removed": 370,
+    "category_values_not_written_canonically": {
+      "access_method": 617,
+      "area_classification": 3876,
+      "circuit_earths_applied": 236,
+      "fall_protection_fitted": 1203,
+      "isolation_proved_dead": 1065,
+      "linked_permit_type": 3917,
+      "permit_suspended": 3925,
+      "permit_type": 3928,
+      "personal_locks_applied": 1079,
+      "plant_area": 218,
+      "process_unit_status": 3894,
+      "request_channel": 0,
+      "rescue_plan_in_place": 530,
+      "review_outcome": 3922,
+      "risk_assessment_attached": 3907,
+      "scaffold_inspected": 515,
+      "services_located": 772,
+      "suspension_reason": 420,
+      "trench_support_fitted": 325,
+      "work_activity": 214,
+      "work_area_barriered": 1978,
+      "work_location": 3893
+    },
+    "columns": 40,
+    "duplicate_rows": 83,
+    "missing_cells_after_cleaning": {
+      "access_method": 4888,
+      "area_classification": 79,
+      "carbon_monoxide_ppm": 5929,
+      "circuit_earths_applied": 6478,
+      "combustibles_cleared_radius_m": 5082,
+      "equipment_tag": 26,
+      "excavation_depth_m": 5870,
+      "fall_protection_fitted": 4914,
+      "fire_watch_minutes": 5063,
+      "flammable_gas_lel_percent": 4173,
+      "hydrogen_sulphide_ppm": 5929,
+      "isolation_proved_dead": 4865,
+      "oxygen_percent": 4163,
+      "personal_locks_applied": 4864,
+      "planned_work_hours": 125,
+      "process_unit_status": 47,
+      "rescue_plan_in_place": 5932,
+      "risk_assessment_attached": 119,
+      "scaffold_inspected": 6026,
+      "services_located": 5877,
+      "suspension_reason": 5875,
+      "system_voltage_volts": 4862,
+      "trench_support_fitted": 6498,
+      "wind_speed_mps": 5691,
+      "work_area_barriered": 3875,
+      "work_location": 56,
+      "work_party_size": 149,
+      "working_height_m": 4893
+    },
+    "missing_cells_as_received": {
+      "access_method": 5207,
+      "area_classification": 99,
+      "carbon_monoxide_ppm": 6297,
+      "circuit_earths_applied": 6887,
+      "combustibles_cleared_radius_m": 5400,
+      "equipment_tag": 26,
+      "excavation_depth_m": 6239,
+      "fall_protection_fitted": 5236,
+      "fire_watch_minutes": 5386,
+      "flammable_gas_lel_percent": 4422,
+      "hydrogen_sulphide_ppm": 6297,
+      "isolation_proved_dead": 5179,
+      "oxygen_percent": 4414,
+      "permit_suspended": 67,
+      "personal_locks_applied": 5184,
+      "planned_work_hours": 133,
+      "process_unit_status": 67,
+      "rescue_plan_in_place": 6298,
+      "risk_assessment_attached": 150,
+      "scaffold_inspected": 6415,
+      "services_located": 6247,
+      "suspension_reason": 6231,
+      "system_voltage_volts": 5171,
+      "trench_support_fitted": 6898,
+      "wind_speed_mps": 6045,
+      "work_area_barriered": 4125,
+      "work_location": 76,
+      "work_party_size": 160,
+      "working_height_m": 5211
+    },
+    "permit_references_not_written_canonically": 3816,
+    "readings_by_unit_as_written": {
+      "carbon_monoxide_ppm": {
+        "milligrams_per_cubic_metre": 154,
+        "ppm": 921
+      },
+      "combustibles_cleared_radius_m": {
+        "feet": 300,
+        "metres": 1672
+      },
+      "excavation_depth_m": {
+        "feet": 512,
+        "metres": 621
+      },
+      "fire_watch_minutes": {
+        "hours": 300,
+        "minutes": 1686
+      },
+      "flammable_gas_lel_percent": {
+        "percent_lel": 2950
+      },
+      "hydrogen_sulphide_ppm": {
+        "milligrams_per_cubic_metre": 157,
+        "ppm": 918
+      },
+      "oxygen_percent": {
+        "percent": 2958
+      },
+      "planned_work_hours": {
+        "hours": 4763,
+        "minutes": 2476
+      },
+      "system_voltage_volts": {
+        "kilovolts": 421,
+        "volts": 1780
+      },
+      "wind_speed_mps": {
+        "metres_per_second": 1128,
+        "miles_per_hour": 199
+      },
+      "working_height_m": {
+        "feet": 293,
+        "metres": 1868
+      }
+    },
+    "rows_kept": 6935,
+    "rows_missing_target": 67,
+    "rows_received": 7455,
+    "rows_removed": 520,
+    "target_shares": {
+      "No": 0.8472,
+      "Yes": 0.1528
+    },
+    "values_above_maximum_as_received": {
+      "flammable_gas_lel_percent": 0,
+      "oxygen_percent": 4
+    },
+    "values_below_minimum_as_received": {
+      "carbon_monoxide_ppm": 0,
+      "combustibles_cleared_radius_m": 0,
+      "excavation_depth_m": 3,
+      "fire_watch_minutes": 0,
+      "flammable_gas_lel_percent": 8,
+      "hydrogen_sulphide_ppm": 0,
+      "oxygen_percent": 0,
+      "planned_work_hours": 9,
+      "system_voltage_volts": 4,
+      "wind_speed_mps": 0,
+      "work_party_size": 13,
+      "working_height_m": 5
+    }
+  },
+  "permit_history_train": {
+    "answered_earlier_revisions_removed": 1430,
+    "category_values_not_written_canonically": {
+      "access_method": 2538,
+      "area_classification": 15520,
+      "circuit_earths_applied": 948,
+      "fall_protection_fitted": 4893,
+      "isolation_proved_dead": 4288,
+      "linked_permit_type": 15753,
+      "permit_suspended": 15769,
+      "permit_type": 15749,
+      "personal_locks_applied": 4274,
+      "plant_area": 867,
+      "process_unit_status": 15607,
+      "request_channel": 0,
+      "rescue_plan_in_place": 2116,
+      "review_outcome": 15751,
+      "risk_assessment_attached": 15643,
+      "scaffold_inspected": 2142,
+      "services_located": 3093,
+      "suspension_reason": 1646,
+      "trench_support_fitted": 1334,
+      "work_activity": 927,
+      "work_area_barriered": 7935,
+      "work_location": 15598
+    },
+    "columns": 40,
+    "duplicate_rows": 365,
+    "missing_cells_after_cleaning": {
+      "access_method": 19525,
+      "area_classification": 348,
+      "carbon_monoxide_ppm": 23744,
+      "circuit_earths_applied": 25941,
+      "combustibles_cleared_radius_m": 20214,
+      "equipment_tag": 124,
+      "excavation_depth_m": 23501,
+      "fall_protection_fitted": 19570,
+      "fire_watch_minutes": 20174,
+      "flammable_gas_lel_percent": 16583,
+      "hydrogen_sulphide_ppm": 23753,
+      "isolation_proved_dead": 19721,
+      "oxygen_percent": 16571,
+      "personal_locks_applied": 19734,
+      "planned_work_hours": 522,
+      "process_unit_status": 199,
+      "rescue_plan_in_place": 23758,
+      "risk_assessment_attached": 452,
+      "scaffold_inspected": 24188,
+      "services_located": 23516,
+      "suspension_reason": 23429,
+      "system_voltage_volts": 19693,
+      "trench_support_fitted": 25929,
+      "wind_speed_mps": 22651,
+      "work_area_barriered": 15385,
+      "work_location": 212,
+      "work_party_size": 474,
+      "working_height_m": 19526
+    },
+    "missing_cells_as_received": {
+      "access_method": 20690,
+      "area_classification": 442,
+      "carbon_monoxide_ppm": 25145,
+      "circuit_earths_applied": 27472,
+      "combustibles_cleared_radius_m": 21420,
+      "equipment_tag": 124,
+      "excavation_depth_m": 24901,
+      "fall_protection_fitted": 20748,
+      "fire_watch_minutes": 21360,
+      "flammable_gas_lel_percent": 17546,
+      "hydrogen_sulphide_ppm": 25160,
+      "isolation_proved_dead": 20890,
+      "oxygen_percent": 17522,
+      "permit_suspended": 204,
+      "personal_locks_applied": 20907,
+      "planned_work_hours": 569,
+      "process_unit_status": 264,
+      "rescue_plan_in_place": 25159,
+      "risk_assessment_attached": 524,
+      "scaffold_inspected": 25629,
+      "services_located": 24932,
+      "suspension_reason": 24823,
+      "system_voltage_volts": 20866,
+      "trench_support_fitted": 27462,
+      "wind_speed_mps": 24002,
+      "work_area_barriered": 16333,
+      "work_location": 276,
+      "work_party_size": 521,
+      "working_height_m": 20672
+    },
+    "permit_references_not_written_canonically": 15326,
+    "readings_by_unit_as_written": {
+      "carbon_monoxide_ppm": {
+        "milligrams_per_cubic_metre": 620,
+        "ppm": 3666
+      },
+      "combustibles_cleared_radius_m": {
+        "feet": 1090,
+        "metres": 6921
+      },
+      "excavation_depth_m": {
+        "feet": 2108,
+        "metres": 2422
+      },
+      "fire_watch_minutes": {
+        "hours": 1098,
+        "minutes": 6973
+      },
+      "flammable_gas_lel_percent": {
+        "percent_lel": 11885
+      },
+      "hydrogen_sulphide_ppm": {
+        "milligrams_per_cubic_metre": 628,
+        "ppm": 3643
+      },
+      "oxygen_percent": {
+        "percent": 11909
+      },
+      "planned_work_hours": {
+        "hours": 19037,
+        "minutes": 9825
+      },
+      "system_voltage_volts": {
+        "kilovolts": 1743,
+        "volts": 6822
+      },
+      "wind_speed_mps": {
+        "metres_per_second": 4608,
+        "miles_per_hour": 821
+      },
+      "working_height_m": {
+        "feet": 1305,
+        "metres": 7454
+      }
+    },
+    "rows_kept": 27797,
+    "rows_missing_target": 204,
+    "rows_received": 29796,
+    "rows_removed": 1999,
+    "target_shares": {
+      "No": 0.8429,
+      "Yes": 0.1571
+    },
+    "values_above_maximum_as_received": {
+      "flammable_gas_lel_percent": 0,
+      "oxygen_percent": 24
+    },
+    "values_below_minimum_as_received": {
+      "carbon_monoxide_ppm": 0,
+      "combustibles_cleared_radius_m": 0,
+      "excavation_depth_m": 10,
+      "fire_watch_minutes": 0,
+      "flammable_gas_lel_percent": 23,
+      "hydrogen_sulphide_ppm": 0,
+      "oxygen_percent": 0,
+      "planned_work_hours": 41,
+      "system_voltage_volts": 5,
+      "wind_speed_mps": 0,
+      "work_party_size": 32,
+      "working_height_m": 20
+    }
+  },
+  "statement_sentences": {
+    "category_values_not_written_canonically": {
+      "document_type": 1440,
+      "request_channel": 0,
+      "sentence_type": 2993
+    },
+    "columns": 8,
+    "duplicate_rows": 450,
+    "missing_cells_after_cleaning": {},
+    "missing_cells_as_received": {
+      "sentence_type": 291
+    },
+    "permit_references_not_written_canonically": 17693,
+    "rows_kept": 35709,
+    "rows_missing_target": 291,
+    "rows_received": 36666,
+    "rows_removed": 957,
+    "rows_with_too_few_words": 216,
+    "sentence_lengths_disagreeing_with_plain_text_as_received": 6222,
+    "sentences_in_capitals": 544,
+    "sentences_with_encoding_artifacts": 2839,
+    "sentences_with_markup": 3656,
+    "shortest_sentence_words": 5,
+    "target_shares": {
+      "Access": 0.119,
+      "Background": 0.1638,
+      "Fire precautions": 0.0526,
+      "Gas testing": 0.118,
+      "Housekeeping and waste": 0.0862,
+      "Isolation": 0.0958,
+      "Personal protective equipment": 0.0895,
+      "Rescue": 0.1174,
+      "Simultaneous operations": 0.1577
+    }
+  }
+}

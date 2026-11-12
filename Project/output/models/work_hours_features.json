@@ -1,0 +1,22 @@
+[
+  "work_party_size",
+  "fire_watch_minutes",
+  "system_voltage_volts",
+  "working_height_m",
+  "excavation_depth_m",
+  "wind_speed_mps",
+  "planned_work_hours",
+  "concurrent_live_permits",
+  "conflicting_live_permits",
+  "conflicting_permit_trigger",
+  "live_process_trigger",
+  "high_voltage_trigger",
+  "permit_type",
+  "linked_permit_type",
+  "work_activity",
+  "area_classification",
+  "process_unit_status",
+  "work_location",
+  "access_method",
+  "trench_support_fitted"
+]

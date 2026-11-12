@@ -1,0 +1,39 @@
+[theme]
+base = "light"
+primaryColor = "#1e4f7a"
+backgroundColor = "#f4f6f9"
+secondaryBackgroundColor = "#e6ebf1"
+textColor = "#15202b"
+borderColor = "#cfd8e2"
+dataframeHeaderBackgroundColor = "#dce4ec"
+showWidgetBorder = true
+baseRadius = "medium"
+buttonRadius = "medium"
+font = "sans-serif"
+headingFont = "sans-serif"
+codeFont = "monospace"
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+metricValueFontSize = "1.5rem"
+redColor = "#b91c1c"
+orangeColor = "#b45309"
+yellowColor = "#a16207"
+greenColor = "#15803d"
+blueColor = "#0369a1"
+violetColor = "#6d28d9"
+
+[theme.sidebar]
+backgroundColor = "#e2e8ef"
+secondaryBackgroundColor = "#d3dce6"
+textColor = "#15202b"
+borderColor = "#c2cdd9"
+primaryColor = "#173f62"
+
+[server]
+port = 8080
+address = "0.0.0.0"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

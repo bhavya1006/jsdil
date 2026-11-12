@@ -1,0 +1,58 @@
+{
+  "sentence": {
+    "algorithm": "TfidfVectorizer + LinearSVC",
+    "held_out_rows": 7142,
+    "minimum_required": 0.95,
+    "scikit_learn_version": "1.9.1",
+    "scores": {
+      "accuracy": 0.9822,
+      "generalisation_gap": 0.0002,
+      "held_out_macro_f1": 0.9811,
+      "per_class_f1": {
+        "Access": 0.9689,
+        "Background": 0.9869,
+        "Fire precautions": 0.9678,
+        "Gas testing": 0.9845,
+        "Housekeeping and waste": 0.9863,
+        "Isolation": 0.9818,
+        "Personal protective equipment": 0.9827,
+        "Rescue": 0.9858,
+        "Simultaneous operations": 0.9854
+      },
+      "train_macro_f1": 0.9813,
+      "weighted_f1": 0.9822
+    },
+    "training_rows": 28567
+  },
+  "suspension": {
+    "algorithm": "LogisticRegression",
+    "held_out_rows": 6935,
+    "minimum_required": 0.79,
+    "scikit_learn_version": "1.9.1",
+    "scores": {
+      "brier_score": 0.0953,
+      "generalisation_gap": 0.004,
+      "held_out_roc_auc": 0.8287,
+      "mean_predicted_probability": 0.1528,
+      "positive_share": 0.1528,
+      "train_roc_auc": 0.8326
+    },
+    "training_rows": 27797
+  },
+  "work_hours": {
+    "algorithm": "TransformedTargetRegressor",
+    "held_out_rows": 6930,
+    "minimum_required": 0.84,
+    "scikit_learn_version": "1.9.1",
+    "scores": {
+      "average_estimate_mean_absolute_error": 7.5291,
+      "generalisation_gap": 0.0135,
+      "held_out_r2": 0.8895,
+      "highest_prediction": 97.4525,
+      "lowest_prediction": 1.7485,
+      "mean_absolute_error": 2.2381,
+      "train_r2": 0.903
+    },
+    "training_rows": 27705
+  }
+}

@@ -1,0 +1,30 @@
+permit_reference,plant_area,permit_type,linked_permit_type,work_activity,equipment_tag,contractor_reference,permit_status
+PTW0051207,Engineering Workshops,Electrical isolation,No linked permit,Motor maintenance,M-5205,CTR-1248,Live
+PTW0051226,Distillation Unit,Work at height,No linked permit,Insulation and cladding,C-3316,CTR-1359,Live
+PTW0051247,Distillation Unit,Electrical isolation,No linked permit,Cable termination,JB-3309,CTR-1255,Live
+PTW0051253,Solvent Recovery,Work at height,No linked permit,Painting,PR-3432,CTR-1344,Live
+PTW0051259,Tank Farm North,Confined space entry,Electrical isolation,Tank cleaning,T-4149,CTR-1209,Live
+PTW0051266,TANK FARM NORTH,Hot work,No linked permit,Welding,L-4124,CTR-1253,Live
+PTW0051276,Tank Farm North,Work at height,No linked permit,Tank roof work,T-4148,CTR-1351,Live
+PTW0051299,Tank Farm South,Confined space entry,No linked permit,Vessel inspection,V-4214,CTR-1351,Suspended
+PTW0051323,Tank Farm South,Hot work,No linked permit,Grinding,ST-4220,CTR-1332,live
+PTW0051340,Tank Farm South,Work at height,No linked permit,Painting,PR-4248,CTR-1434,Live
+PTW0051340,Tank Farm South,Work at height,No linked permit,Painting,PR-4248,CTR-1434,Live
+PTW0051356,Boiler House,Electrical isolation,No linked permit,Motor maintenance,M-4645B,CTR-1234,Live
+PTW0051376,Road Loading Bay,Excavation,No linked permit,Trial hole,TH-4319,CTR-1424,Live
+PTW0051391, Road Loading Bay ,Electrical isolation,No linked permit,Lighting and small power,LT-4321,CTR-1274,Live
+PTW0051401,Reactor House A,Electrical isolation,No linked permit,Motor maintenance,M-3145,CTR-1337,Live
+PTW0051421,Reactor House A,Work at height,No linked permit,Pipework at height,L-3153,CTR-1382,Live
+PTW0051447,Effluent Treatment,Work at height,No linked permit,Pipework at height,L-4557,CTR-1261,Live
+PTW0051450,Site Roads and Drains,Excavation,No linked permit,Cable trenching,CB-5135,CTR-1253,Live
+PTW0051458,Chlorine Unit,Electrical isolation,No linked permit,Switchgear maintenance,SWG-3555,CTR-1242,Live
+PTW0051466,Reactor House B,Electrical isolation,No linked permit,Heater element replacement,HT-3206,CTR-1261,Live
+PTW0051486,main substation,Electrical isolation,No linked permit,Cable termination,CB-4928,CTR-1282,Live
+PTW0051501,Central Warehouse,Work at height,No linked permit,Roof repair,BLD-5318,CTR-1282,Live
+PTW0051515,Caustic Evaporation,Hot work,No linked permit,Welding,P-3609B,CTR-1230,Live
+PTW0051542,Cooling Towers,Work at height,No linked permit,Painting,PR-4708,CTR-1323,Live
+PTW0051563,Rail Sidings,Hot work,No linked permit,Flame cutting,L-4410,CTR-1301,SUSPENDED
+PTW0051586, East Pipe Bridge ,Work at height,No linked permit,Insulation and cladding,C-3950,CTR-1337,Live
+PTW0051603,Effluent Treatment,Excavation,No linked permit,Drain repair,DR-4532,CTR-1253,Suspended
+PTW0051625,Chlorine Unit,Work at height,No linked permit,Pipework at height,L-3558,CTR-1382,Suspended
+PTW0051652,Reactor House B,Confined space entry,No linked permit,Vessel inspection,C-3220,CTR-1397,Suspended
