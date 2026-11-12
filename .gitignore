@@ -1,0 +1,5 @@
+# Ignore all local environment files
+.env*
+
+# Allow sharing a safe template file
+!.env.example
